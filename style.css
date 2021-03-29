@@ -148,7 +148,7 @@
   display: none;
 }
 
-.task-list .task-list__edit .inp-elem [type="text"] {
+.task-list .task-list__edit .inp-elem[type="text"] {
   display: inline-block;
   width: 224px;
 }
