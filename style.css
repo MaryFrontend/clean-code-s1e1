@@ -109,7 +109,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.task-list-elem > * {
+.task-list__elem > * {
   vertical-align: middle;
 }
 
