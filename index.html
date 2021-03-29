@@ -19,7 +19,7 @@
         </div>
        </p>
       <h3 class="heading">Todo</h3>
-      <ul class="task-list">
+      <ul class="task-list" id="incomplet">
         <li class="task-list__elem">
           <input class="inp-elem" type="checkbox">
           <label class="task label">Pay Bills</label>
@@ -31,13 +31,13 @@
         <li class="task-list__edit task-list__elem">
           <input  class="inp-elem" type="checkbox">
           <label class="task label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task inp-elem">
+          <input type="text" value="Go Shopping" class="task inp-elem" id="new-task">
           <button class="edit btn">Save</button>
           <button class="delete btn"><img class="del-img" alt="Remove" src="./remove.svg"></button>
         </li>
       </ul>
       <h3 class="heading">Completed</h3>
-      <ul class="task-list">
+      <ul class="task-list" id="completed">
         <li class="task-list__elem">
           <input class="inp-elem" type="checkbox" checked>
           <label class="task label">See the Doctor</label>
