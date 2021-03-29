@@ -45,7 +45,7 @@
 .heading {
   list-style: none;
 }
-.input-elem,
+.inp-elem,
 .btn{
   outline: none;
 }
@@ -58,7 +58,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-btn:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -72,7 +72,7 @@ btn:hover {
   margin: 0;
   text-transform: uppercase;
 }
-.input-elem[type="text"] {
+.inp-elem[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -84,7 +84,7 @@ btn:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.input-elem[type="text"]:focus {
+.inp-elem[type="text"]:focus {
   color: #333;
 }
 
@@ -93,7 +93,7 @@ btn:hover {
   display: block;
   margin: 0 0 20px;
 }
-.input-elem#new-task {
+.inp-elem#new-task {
    width: 318px;
 }
 #add-item-section > .btn:hover {
@@ -113,16 +113,16 @@ btn:hover {
   vertical-align: middle;
 }
 
-.task-list__elem > input[type="checkbox"] { 
+.task-list__elem > .inp-elem[type="checkbox"] { 
   margin: 0 10px;
 }
-.task-list__elem > label {
+.task-list__elem > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.task-list__elem > input-elem[type="text"] { 
+.task-list__elem > .inp-elem[type="text"] { 
   width: 226px;
 }
 .task-list__elem > .delete:hover {
@@ -134,7 +134,7 @@ btn:hover {
   transition: transform 200ms ease-in;
 }
 .del-img:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
@@ -144,11 +144,11 @@ btn:hover {
 }
 
 /* Edit Task */
-.task-list .task-list__elem .input-elem[type="text"] {
+.task-list .task-list__elem .inp-elem[type="text"] {
   display: none;
 }
 
-.task-list .task-list__edit .input-elem [type="text"] {
+.task-list .task-list__edit .inp-elem [type="text"] {
   display: inline-block;
   width: 224px;
 }
